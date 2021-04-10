@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "netflix-to-srt": "index.js"
+    "netflix-to-srt": "bin/index.js"
   },
   "preferGlobal": true,
   "repository": {

@@ -19,8 +19,6 @@ function convertTimestamp(tickRate, t){
 
 main();
 async function main(){
-    try { await fsA.mkdir('input'); }
-    catch{}
     try { await fsA.mkdir('output'); }
     catch{}
 
@@ -30,7 +28,7 @@ async function main(){
             continue;
 
         try {
-            const xml = (await fsA.readFile(path.join('input', file))).toString();
+            const xml = (await fsA.readFile(file)).toString();
             const $ = cheerio.load(xml, { xmlMode: true });
 
             const tickRate = $('tt').attr('ttp:tickRate');
