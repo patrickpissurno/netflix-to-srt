@@ -1,0 +1,28 @@
+{
+  "name": "netflix-to-srt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Node.js script that converts Netflix's XML format to SRT",
+  "keywords": ["netflix", "subtitles", "converter", "xml", "srt", "subtitle", "tool"],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "netflix-to-srt": "index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickpissurno/netflix-to-srt.git"
+  },
+  "author": "Patrick Pissurno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickpissurno/netflix-to-srt/issues"
+  },
+  "homepage": "https://github.com/patrickpissurno/netflix-to-srt#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "luxon": "^1.26.0"
+  }
+}

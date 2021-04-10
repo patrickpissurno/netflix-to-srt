@@ -74,3 +74,7 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+*.xml
+output/
+.DS_Store
